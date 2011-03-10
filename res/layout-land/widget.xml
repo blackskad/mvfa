@@ -72,6 +72,34 @@
 		android:gravity="center">
 
 		<ImageView
+			android:id="@+id/sms_son_img"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/widget_sms" />
+
+		<TextView
+			android:id="@+id/sms_son_text"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textStyle="bold"
+			android:textSize="16sp"
+			android:textColor="#ffffff" />
+
+	</LinearLayout>
+
+	<ImageView
+		android:layout_width="1dip"
+		android:layout_height="fill_parent"
+		android:background="@drawable/appwidget_divider" />
+
+	<LinearLayout
+		android:layout_width="0dip"
+		android:layout_weight="1"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:gravity="center">
+
+		<ImageView
 			android:id="@+id/data_img"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"

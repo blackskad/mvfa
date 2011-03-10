@@ -102,6 +102,7 @@ public class WidgetProvider extends AppWidgetProvider {
 
 		views.setTextViewText(R.id.credit_text, helper.credit.getRemainingCredit() + " €");
 		views.setTextViewText(R.id.sms_text, helper.credit.getRemainingSms() + " SMS");
+		views.setTextViewText(R.id.sms_son_text, helper.credit.getRemainingSmsSuperOnNet() + " MV SMS");
 		views.setTextViewText(R.id.data_text, (helper.credit.getRemainingData() / (1024 * 1024)) + " MB");
 
 		helper.close();
